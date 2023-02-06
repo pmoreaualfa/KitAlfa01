@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+h1, h2 {
+@apply bg-green text-gray-light rounded pt-2 pb-3 px-20 font-['Oswald']
+}
+h3,
+h4,
+h5,
+h6 {
+@apply bg-yellow text-gray-dark rounded pt-1 pb-1 pl-3 font-['Oswald'] prose prose-lg
+}
+p {@apply  font-['Roboto'] prose prose-sm}
+}
